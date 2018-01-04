@@ -23,6 +23,17 @@ h1 {
   padding: 2rem;
 }
 
+header {
+  position: relative;
+}
+
+.hex {
+  position: absolute;
+  left: 22%;
+  top: 10%;
+  width: 5%;
+}
+
 h2 {
   font-size: 1.5rem;
   color: pink;
@@ -60,6 +71,14 @@ body {
 img {
   width: 100%;
   display: inline-block;
+}
+
+footer {
+  color: pink;
+  border-color: purple;
+  border-style: dotted;
+  width: 100%;
+  text-align: center;
 }
 
 @media only screen and (min-width: 25em) {

@@ -91,7 +91,7 @@ img {
 @media only screen and (min-width: 60em) {
 
   figure {
-    width: 70%;
+    width: 100%;
     display: inline-block;
     margin-left: 0;
     margin-right: 0;
@@ -110,6 +110,25 @@ img {
   .bonbons {
     display: inline-block;
     width: 30%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .cupcakes {
+    width: 35%;
+    display: inline-block;
+  }
+
+  .fudge {
+    width: 35%;
+    display: inline-block;
+  }
+
+  .bonbons {
+    width: 35%;
+    display: inline-block;
   }
 
 }

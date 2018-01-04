@@ -19,10 +19,12 @@ h1 {
   font-family: "Fascinate", cursive;
   font-size: 2rem;
   color: pink;
+  background-color: purple;
+  padding: 2rem;
 }
 
 h2 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: pink;
 }
 
@@ -48,4 +50,66 @@ ul {
 
 a:hover {
   background-color: purple;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  display: inline-block;
+}
+
+@media only screen and (min-width: 25em) {
+
+  img {
+    width: 70%;
+    display: inline-block;
+  }
+
+  nav li {
+  display: inline-block;
+  text-align: center;
+}
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  img {
+    width: 50%;
+  }
+
+  nav li {
+    text-align: left;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  figure {
+    width: 70%;
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .cupcakes {
+    display: inline-block;
+    width: 30%;
+  }
+
+  .fudge {
+    display: inline-block;
+    width: 30%;
+  }
+
+  .bonbons {
+    display: inline-block;
+    width: 30%;
+  }
+
 }

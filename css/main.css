@@ -1,13 +1,17 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
 
 html {
   box-sizing: border-box;
-  font-family: 'Quicksand', sans-serif;
+  font-family: Quicksand, sans-serif;
   line-height: 2rem;
-  @-moz-viewport { width: device-width; scale: 1; }
-  @-ms-viewport { width: device-width; scale: 1; }
-  @-o-viewport { width: device-width; scale: 1; }
-  @-webkit-viewport { width: device-width; scale: 1; }
-  @viewport { width: device-width; scale: 1; }
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 *, *::before, *::after {
@@ -15,7 +19,7 @@ html {
 }
 
 h1 {
-  font-family: 'Fascinate', cursive;
+  font-family: Fascinate, cursive;
   font-size: 2rem;
   color: pink;
   background-color: purple;
@@ -113,6 +117,11 @@ p {
 
 @media only screen and (min-width: 38em) {
 
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
   img {
     width: 50%;
   }
@@ -136,6 +145,11 @@ p {
 }
 
 @media only screen and (min-width: 60em) {
+
+  html {
+    line-height: 1.5;
+    font-size: 120%;
+  }
 
   figure {
     width: 100%;
@@ -162,6 +176,10 @@ p {
 }
 
 @media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
 
   .cupcakes {
     width: 20%;

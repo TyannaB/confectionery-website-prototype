@@ -121,8 +121,7 @@ p {
 
   .p {
     position: absolute;
-    right: 3px;
-    top: 1%;
+    bottom: 10%;
   }
 
 }

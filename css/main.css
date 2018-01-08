@@ -75,7 +75,7 @@ footer {
   border-style: dotted;
   width: 100%;
   text-align: center;
-  margin-top: 13em;
+  margin-top: 8em;
   display: block;
 }
 
@@ -146,17 +146,17 @@ p {
 
   .cupcakes {
     display: inline-block;
-    width: 30%;
+    width: 25%;
   }
 
   .fudge {
     display: inline-block;
-    width: 30%;
+    width: 25%;
   }
 
   .bonbons {
     display: inline-block;
-    width: 30%;
+    width: 25%;
   }
 
 }
@@ -164,8 +164,8 @@ p {
 @media only screen and (min-width: 90em) {
 
   .cupcakes {
-    width: 35%;
-    display: inline-block;
+    width: 20%;
+    display: inline;
   }
 
   .fudge {
